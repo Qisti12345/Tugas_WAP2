@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Style>
+        * {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: pink;
+    font-size: larger;
+}
+
+.x {
+    border: 2px solid red;
+}
+
+section {
+    margin: 25px;
+}
+
+.title {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar {
+    background-color: #D988B9;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.profile {
+    padding: 2rem;
+    background-color: #c50578;
+    border-radius: 15px;
+    padding-left: 5rem;
+}
+
+.profile img {
+    width: 50vw;
+    border-radius: 30px;
+}
+
+.profile {
+    display: flex;
+    color: #FFE4D6;
+}
+
+.desc .isi ul {
+    padding-left: 2rem;
+}
+
+.isi {
+    margin: 2rem;
+}
+
+
+    </Style>
+</head>
+<body>
+    <!-- navbar -->
+    <section>
+        <nav>
+            <div class="navbar">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+    <!-- title -->
+    <section>
+        <div class="title">
+            <h1>Welcome to My Profile!</h1>
+        </div>
+    </section>
+
+    <!-- profile -->
+    <section>
+        <div class="profile">
+                <img src="Qisti Zalsabila Nurul Hidayah.jpeg" alt="">
+            <div class="desc">
+                <div class="isi">
+                    <h3>Name</h3>
+                    <p>Qisti Zalsabila Nurul Hidayah</p>
+                </div>
+                <div class="isi">
+                    <h3>Birth</h3>
+                    <p>Yogyakarta, 12 September 2003</p>
+                </div>
+                <div class="isi">
+                    <h3>Zodiak</h3>
+                    <p>Virgo</p>
+                </div>
+                <div class="isi">
+                    <h3>Hobbies</h3>
+                    <ul>
+                        <li>Reading</li>
+                        <li>Cooking</li>
+                        <li>Naping</li>
+                        <li>Watching</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
